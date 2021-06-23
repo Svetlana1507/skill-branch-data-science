@@ -17,7 +17,6 @@ def gradient(f, x, y):
     return round (grad_x1,2), round (grad_x2, 2)
 print (gradient(f, 10, 1))
 
-
 # Задание 3
 import sympy as sy
 x = sy.symbols ('x')
