@@ -15,8 +15,7 @@ def gradient(f, x, y):
     grad_x1 = sy.diff(f, x1).subs([(x1,x), (x2,y)]).evalf()
     grad_x2 = sy.diff(f, x2).subs([(x1,x), (x2,y)]).evalf()
     return round (grad_x1,2), round (grad_x2, 2)
-print (gradient(f, 10, 1))
-
+print (gradient(f, 10, 1)
 
 # Задание 3
 import sympy as sy
